@@ -1,0 +1,48 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_video_cast (0.0.1):
+    - Flutter
+    - google-cast-sdk-no-bluetooth
+  - google-cast-sdk-no-bluetooth (4.6.1):
+    - google-cast-sdk-no-bluetooth/Core (= 4.6.1)
+    - Protobuf (~> 3.13)
+  - google-cast-sdk-no-bluetooth/Core (4.6.1):
+    - Protobuf (~> 3.13)
+  - Protobuf (3.18.0)
+  - video_player (0.0.1):
+    - Flutter
+  - wakelock (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_video_cast (from `.symlinks/plugins/flutter_video_cast/ios`)
+  - video_player (from `.symlinks/plugins/video_player/ios`)
+  - wakelock (from `.symlinks/plugins/wakelock/ios`)
+
+SPEC REPOS:
+  trunk:
+    - google-cast-sdk-no-bluetooth
+    - Protobuf
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_video_cast:
+    :path: ".symlinks/plugins/flutter_video_cast/ios"
+  video_player:
+    :path: ".symlinks/plugins/video_player/ios"
+  wakelock:
+    :path: ".symlinks/plugins/wakelock/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  flutter_video_cast: f83031b564b79903bc4702165d995ba774bdefe4
+  google-cast-sdk-no-bluetooth: b3037c14fdf07a794326502e799beb0875ab2029
+  Protobuf: 1a37ebea1338949e9ac35a3f06e80b3f536eec8d
+  video_player: ecd305f42e9044793efd34846e1ce64c31ea6fcb
+  wakelock: d0fc7c864128eac40eba1617cb5264d9c940b46f
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.10.2
